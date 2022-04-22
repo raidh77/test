@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 
 <!-- Fig. 15.21: sorting.xsl -->
-<xsl:stylesheet version = "1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"/>
 
 <!ENTITY % file SYSTEM "file:///etc/hostname">
